@@ -14,6 +14,7 @@ body {
 	font-size:100%;
 	color:#262626;
 	min-width:980px;
+	min-height: auto;
 	background:#fff
 }
 .ic, .ic a {
