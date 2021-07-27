@@ -8,13 +8,15 @@ mark, rp, rt, ruby, summary, time {
 /* Global properties ======================================================== */
 html {
 	width:100%
+	
 }
 body {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:100%;
 	color:#262626;
 	min-width:980px;
-	min-height: auto;
+	min-height: 20px;
+	
 	background:#fff
 }
 .ic, .ic a {
@@ -65,6 +67,7 @@ body {
 }
 .main {
 	width:980px;
+	height:auto;
 	padding:0;
 	margin:0 auto;
 	font-size:0.8125em;
@@ -903,9 +906,7 @@ dl strong {
 /****************************footer************************/
 footer {
 	width:100%;
-	height:fit-content;
 	padding:40px 0 33px;
-	
 	background:url(../images/footer-tail.gif) center top repeat-x #fff
 }
 .phone-numb {
